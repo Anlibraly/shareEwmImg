@@ -1,0 +1,29 @@
+{
+  "name": "share_ewmimg",
+  "version": "1.0.0",
+  "description": "create a wx share image!",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anlibraly/shareEwmImg.git"
+  },
+  "keywords": [
+    "share",
+    "wx"
+  ],
+  "author": "anlibraly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Anlibraly/shareEwmImg/issues"
+  },
+  "homepage": "https://github.com/Anlibraly/shareEwmImg#readme",
+  "dependencies": {
+    "gm": "^1.23.0"
+  }
+}
