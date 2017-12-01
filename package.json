@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Anlibraly/shareEwmImg#readme",
   "dependencies": {
-    "gm": "^1.23.0"
+    "gm": "^1.23.0",
+    "request": "^2.83.0"
   }
 }
