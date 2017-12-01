@@ -31,7 +31,7 @@ createImg(ewm, head, '诗仙李白', 5, 1123, 'new.png');
 
 
 ``` js
-createImg(ewm, head, userName, bearNum, money, img_path)
+createImg(ewm, head, userName, bearNum, money, img_path, tmpPath)
 
 ```
 
@@ -41,6 +41,7 @@ createImg(ewm, head, userName, bearNum, money, img_path)
 * `bearNum`: 用户已经集齐的熊的数量
 * `money`: 可以分到的钱数
 * `img_path`: 生成的图片放置的位置
+* `tmpPath`: 项目生成中产生的临时文件放置路径 (default: '/tmp')
 
 <br/>
 
