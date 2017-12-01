@@ -1,6 +1,6 @@
 {
   "name": "share_ewmimg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "create a wx share image!",
   "main": "index.js",
   "directories": {
