@@ -3,6 +3,8 @@ var gm              = require('gm');
 var path            = require('path');
 var request         = require('request');
 
+var types = ['png', 'jpg', 'jepg', 'gif', 'bmp'];
+
 var resize = (img_url, width, height) => {
     return new Promise((resolve, reject) => {
             gm(img_url)
@@ -108,7 +110,11 @@ var downLoad = (img, tmpPath) => {
         var items = img.split('.');
         var type = items[items.length - 1];
         
-        var imgPath = path.join(tmpPath, `/${+new Date()}_${Math.floor(100*Math.random(1))}.${type}`);
+        if(types.indexOf(type) === -1) {
+            type = 'png';
+        }
+
+        var imgPath = path.join(tmpPath, `/${+new Date()}_${Math.floor(500*Math.random(1))}.${type}`);
 
         return new Promise((resolve, reject) => {
 
